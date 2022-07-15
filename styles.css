@@ -1,4 +1,44 @@
 body{
-    height: 100%;
-    background: linear-gradient(45deg, #513252 50%, #7A4069 50%);
+    background: linear-gradient(30deg, #513252 50%, #7A4069 50%);
+    
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    text-align: center;
+    color: aqua;
+}
+
+button{
+    
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    background-color: yellowgreen;
+}
+
+.button{
+    padding: 10px 15px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border-radius: 15px;
+    background-color: red;
+
+}
+
+#table{
+text-align: center;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
