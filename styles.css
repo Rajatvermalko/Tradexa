@@ -5,7 +5,7 @@ body{
 
 h1{
     text-align: center;
-    color: white;
+    color: lightblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -15,7 +15,7 @@ p{
 }
 
 button{
-    
+    margin-left: 550px;
     padding: 15px 25px;
     font-size: 24px;
     text-align: center;
@@ -25,9 +25,11 @@ button{
     border-radius: 15px;
     background-color: yellowgreen;
 }
+
 button:hover{
     background-color: blue;
 }
+
 .button{
     padding: 10px 15px;
     font-size: 24px;
@@ -38,10 +40,13 @@ button:hover{
     border-radius: 15px;
     background-color: red;
 }
+
 .button:hover{
     background-color: blue;
 }
+
 #table{
 text-align: center;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
