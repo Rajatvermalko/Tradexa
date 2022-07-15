@@ -29,3 +29,17 @@ const generateHTML = (title,body) => {
     tr.appendChild(tdBody)
     return tr
 }
+
+const btn = document.getElementById('btn');
+
+btn.addEventListener('click', () => {
+  const form = document.getElementById('btntoggle');
+
+  if (form.style.display === 'none') {
+    //  this SHOWS the form
+    form.style.display = 'block';
+  } else {
+    // this HIDES the form
+    form.style.display = 'none';
+  }
+});
