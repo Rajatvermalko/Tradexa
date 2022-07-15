@@ -1,2 +1,2 @@
-# Tradexa
- a code to import data from api and updating it through froms
+# Tradexa-Assignment
+ A code to import data from api and updating it through froms
