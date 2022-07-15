@@ -25,7 +25,9 @@ button{
     border-radius: 15px;
     background-color: yellowgreen;
 }
-
+button:hover{
+    background-color: blue;
+}
 .button{
     padding: 10px 15px;
     font-size: 24px;
@@ -35,9 +37,10 @@ button{
     color: #fff;
     border-radius: 15px;
     background-color: red;
-
 }
-
+.button:hover{
+    background-color: blue;
+}
 #table{
 text-align: center;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
